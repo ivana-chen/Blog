@@ -1,6 +1,6 @@
 # Project Overview
 This project was designed to create a blog web application. It aimed to utilize modern web development techniques and tools to deliver a robust and user-friendly application.
-Made with Codeigniter4, PHP, MySQL. User will have to specify database in Database.php to blog information.
+Made with Codeigniter4, PHP, MySQL. User will have to specify database in Database.php to blog information, currently no database is given. 
 Consists of:
 - A home page with the current top 5 blogs
 - Ability to create a new blog post with title, description, image and any tags, and a

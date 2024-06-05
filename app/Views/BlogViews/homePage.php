@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ivana_Blogs</title>
+    <title>Blogs</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/css/homePage.css">
@@ -9,7 +9,7 @@
 <body>
 
 <div class="header">
-  <h2>Ivana_Blogs</h2>
+  <h2>Blogs</h2>
 </div>
 
 <nav class="navbar">

@@ -9,7 +9,7 @@
 
     
 <div class="navbar">
-    <a href="<?php echo site_url('Blog/index'); ?>">Ivana_Blogs</a>
+    <a href="<?php echo site_url('Blog/index'); ?>">Blogs</a>
     <a href="<?php echo site_url('Blog/pagination'); ?>">Pagination</a>
 
 </div>

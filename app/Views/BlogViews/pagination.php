@@ -7,7 +7,7 @@
 <body style="background-color:#798DC5;">
 
 <div class="navbar">
-    <a href="<?php echo site_url('Blog/index') ?>">Ivana_Blogs</a>
+    <a href="<?php echo site_url('Blog/index') ?>">Blogs</a>
 
     <a href="<?php echo site_url('Blog/newBlog') ?>">Create a Blog</a>
 

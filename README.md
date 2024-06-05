@@ -6,4 +6,4 @@ Consists of:
 - Ability to create a new blog post with title, description, image and any tags, and a
 - Pagination view of blogs
 
-Made with Codeigniter4, user will have to specify database to blog information. 
+Made with Codeigniter4, PHP, MySQL. User will have to specify database in Database.php to blog information.

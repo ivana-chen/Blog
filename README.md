@@ -1,14 +1,10 @@
-# Blog
+# Project Overview
+This project was designed to create a blog web application. It aimed to utilize modern web development techniques and tools to deliver a robust and user-friendly application.
 Made with Codeigniter4, PHP, MySQL. User will have to specify database in Database.php to blog information.
-
-Simple blog.
 Consists of:
 - A home page with the current top 5 blogs
 - Ability to create a new blog post with title, description, image and any tags, and a
 - Pagination view of blogs
-
-# Project Overview
-This project was designed to create a blog web application. It aimed to utilize modern web development techniques and tools to deliver a robust and user-friendly application.
 
 # Motivation
 The primary motivation behind this project was to deepen my understanding of web development frameworks and technologies. Specifically, I wanted to gain hands-on experience with the CodeIgniter 4 framework, enhance my knowledge of the MVC (Model-View-Controller) architecture, and improve my skills in PHP and MySQL.

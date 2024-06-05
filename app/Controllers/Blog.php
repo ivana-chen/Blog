@@ -48,7 +48,7 @@ class Blog extends BaseController
     public function submit_form() {
 
         //Grab data from View form. Will also limit the length, ex) title = 50 characters max. 
-        $title = substr($this,->request->getPost('title'), 0, 50);
+        $title = substr($this->request->getPost('title'), 0, 50);
         $image_url = $this->request->getPost('image_url'); 
         $description = substr($this->request->getPost('description'), 0, 500);
         $tags = substr($this->request->getPost('tags'), 0, 50);

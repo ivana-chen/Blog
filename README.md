@@ -21,6 +21,6 @@ Throughout the development of this project, I gained valuable insights and exper
 As of now, the project has been put on hold. While it provided significant learning opportunities and helped me achieve my initial goals, other priorities have required my attention. Consequently, active development has been paused.
 
 # Query
-CREATE TABLE Blogs (id INT AUTO_INCREMENT PRIMARY KEY,    title VARCHAR(255),;    description TEXT,;    image_url VARCHAR(255),;    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
+CREATE TABLE Blogs (id INT AUTO_INCREMENT PRIMARY KEY,  title VARCHAR(255),  description TEXT,  image_url VARCHAR(255),  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
 CREATE TABLE Tags (tag_name VARCHAR(50) PRIMARY KEY)
-CREATE TABLE BlogTags (blog_id INT,   tag_name VARCHAR(50), FOREIGN KEY (blog_id) REFERENCES Blogs(id),    FOREIGN KEY (tag_name) REFERENCES Tags(tag_name),    PRIMARY KEY (blog_id, tag_name))
+CREATE TABLE BlogTags (blog_id INT,  tag_name VARCHAR(50),  FOREIGN KEY (blog_id) REFERENCES Blogs(id),  FOREIGN KEY (tag_name) REFERENCES Tags(tag_name),  PRIMARY KEY (blog_id, tag_name))

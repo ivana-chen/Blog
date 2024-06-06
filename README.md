@@ -1,6 +1,6 @@
 # Project Overview
 This project was designed to create a blog web application. It aimed to utilize modern web development techniques and tools to deliver a robust and user-friendly application.
-Made with Codeigniter4, PHP, MySQL. User will have to specify database in Database.php to blog information, currently no database is given. 
+Made with Codeigniter4, PHP, MySQL. User will have to specify database in Database.php to blog information, currently no database is given, but the query to complete the database is below. 
 Consists of:
 - A home page with the current top 5 blogs
 - Ability to create a new blog post with title, description, image and any tags, and a
@@ -19,3 +19,8 @@ Throughout the development of this project, I gained valuable insights and exper
 
 # Current Status
 As of now, the project has been put on hold. While it provided significant learning opportunities and helped me achieve my initial goals, other priorities have required my attention. Consequently, active development has been paused.
+
+# Query
+CREATE TABLE Blogs (id INT AUTO_INCREMENT PRIMARY KEY,    title VARCHAR(255),;    description TEXT,;    image_url VARCHAR(255),;    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
+CREATE TABLE Tags (tag_name VARCHAR(50) PRIMARY KEY)
+CREATE TABLE BlogTags (blog_id INT,   tag_name VARCHAR(50), FOREIGN KEY (blog_id) REFERENCES Blogs(id),    FOREIGN KEY (tag_name) REFERENCES Tags(tag_name),    PRIMARY KEY (blog_id, tag_name))
